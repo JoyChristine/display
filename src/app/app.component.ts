@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'display';
+  showMsg = false;
+ 
+  logs: Array<any> = [];
+  onToggle() {
+    this.showMsg = !this.showMsg;
+    
+    this.logs.push(this.logs.length +1);
+  }
+
 }
