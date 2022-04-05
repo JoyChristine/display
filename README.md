@@ -1,6 +1,15 @@
 # Display
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+## Description
+Tasks were to ; <br>
+* Add A button which says 'Display Details' <br>
+* Toggle the displaying of that paragraph with the button created in the first step
+* Log all button clicks in an array and output that array below the secret paragraph 
+* Starting at the 5th number, give all future numbers a different background (via ngStyle) and color (ngClass)
+![image](https://user-images.githubusercontent.com/57414671/161850040-5b70cb78-2b46-44e3-8688-070ce8b97d6b.png)
+
+
 
 ## Development server
 
